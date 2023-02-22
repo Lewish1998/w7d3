@@ -17,8 +17,7 @@ const SongsContainer = () => {
 
 
     return (
-        <div>
-            <h1>Song List</h1>
+        <div id='song-container'>
             <SongList songs={songs}/>
         </div>
     )

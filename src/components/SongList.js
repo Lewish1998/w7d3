@@ -7,8 +7,8 @@ const SongList = ({songs}) => {
   });
 
   return(
-    <div>
-        <ol>
+    <div id='song-list'>
+        <ol id='ordered-song-list'>
             {SongItems}
         </ol>
     </div>
