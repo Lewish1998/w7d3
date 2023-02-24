@@ -1,12 +1,12 @@
 import './App.css';
-import SongsContainer from './containers/SongsContainer';
+import PokemonContainer from './containers/PokemonContainer';
 
 function App() {
   return (
     <div>
-      <h1 id='heading'>Top 20</h1>
+      <h1 id='heading'>Pokemon</h1>
       <hr></hr>
-      <SongsContainer/>
+      <PokemonContainer/>
     </div>
   );
 }
