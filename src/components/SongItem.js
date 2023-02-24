@@ -1,12 +1,9 @@
-const SongItem = ({song}) => {
 
-    const playPreview = () => {
-      
-    }
+const SongItem = ({song}) => { 
 
     return(<div>
     <li id="song-id">
-        Title: {song['im:name'].label}
+        Title name: {song['im:name'].label}
         <br></br>
         Artist: {song['im:artist'].label}
         <br></br>
